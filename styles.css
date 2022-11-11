@@ -1,0 +1,59 @@
+.text {
+	display: flex;
+	font-size: 5rem;
+	font-weight: 900;
+	letter-spacing: 0.2rem;
+	color: aliceblue;
+}
+
+.text>div {
+	animation: bounce 0.6s ease-in-out alternate infinite;
+	animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes bounce {
+	to {
+		transform: translateY(5rem);
+	}
+}
+.wrap{
+	width: 765px;
+	margin: 0 auto;
+}
+
+header{
+	background: #DAD700;
+	text-align: center;
+}
+
+.content, aside{
+	height: 384px;
+
+
+}
+
+.content{
+	float: left ;
+	width: 70%;
+	background: #6450e8;
+
+
+}
+aside{
+	float: left;
+	width: 30%;
+	background: rgb(22, 255, 84);
+}
+footer {
+	background: #8700DA;
+	clear: both;
+}
+
+img{
+	width:391px ;
+    height:361px ;	
+} 
+
+body{
+	background-image: url(vk1776.png);
+	
